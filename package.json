@@ -1,0 +1,17 @@
+{
+  "name": "portfolio-blog",
+  "version": "1.0.0",
+  "description": "Static blog generator for technical articles",
+  "main": "blog/build.js",
+  "scripts": {
+    "build-blog": "node blog/build.js",
+    "dev": "npm run build-blog && python3 -m http.server 8000",
+    "preview": "npm run build-blog && echo 'Blog built! Open http://localhost:8000/blog/ to preview'"
+  },
+  "dependencies": {
+    "marked": "^9.1.6"
+  },
+  "devDependencies": {},
+  "author": "Hugh Fitzpatrick",
+  "license": "MIT"
+}
