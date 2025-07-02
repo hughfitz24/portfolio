@@ -876,29 +876,30 @@
                             <button class="terminal-button btn-close"></button>
                             <button class="terminal-button btn-minimize"></button>
                             <button class="terminal-button btn-maximize"></button>
-                            <span class="terminal-title">hfitzpatrick@localhost:~</span>
+                            <span class="terminal-title">hfitzpatrick@platform-dev:~/skills$~</span>
+
                         </div>
                         <div class="terminal-content">
                             <div class="terminal-line">
-                                <span class="prompt">$ </span><span class="command">cargo build --release</span>
+                                <span class="prompt">$ </span><span class="command">terraform apply -auto-approve</span>
                             </div>
                             <div class="terminal-line">
-                                <span class="output success">   Compiling systems-core v0.1.0</span>
+                                <span class="output success">Apply complete! Resources: 42 added, 0 changed, 0 destroyed.</span>
                             </div>
                             <div class="terminal-line">
-                                <span class="prompt">$ </span><span class="command">terraform plan</span>
+                                <span class="prompt">$ </span><span class="command">kubectl get pods -n platform</span>
                             </div>
                             <div class="terminal-line">
-                                <span class="output">Plan: 12 to add, 0 to change, 0 to destroy.</span>
+                                <span class="output">NAME                      READY   STATUS    RESTARTS   AGE</span>
                             </div>
                             <div class="terminal-line">
-                                <span class="prompt">$ </span><span class="command">go run main.go</span>
+                                <span class="output success">build-automation-svc      1/1     Running   0          2d</span>
                             </div>
                             <div class="terminal-line">
-                                <span class="output success">Server listening on :8080</span>
+                                <span class="prompt">$ </span><span class="command">go build -o packet-sniffer ./cmd/main.go</span>
                             </div>
                             <div class="terminal-line">
-                                <span class="prompt">$ </span><span class="command">gcc -Wall -o portfolio main.c</span>
+                                <span class="output success">Build successful: packet analysis ready</span>
                             </div>
                             <div class="terminal-line">
                                 <span class="prompt">$ </span><span class="cursor">_</span>
