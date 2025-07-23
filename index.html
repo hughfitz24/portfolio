@@ -837,6 +837,7 @@
                     <li><a href="#about">whoami</a></li>
                     <li><a href="#skills">ls skills/</a></li>
                     <li><a href="#experience">history</a></li>
+                    <li><a href="#education">education</a></li>
                     <li><a href="#projects">cat projects/</a></li>
                     <li><a href="#articles">cat articles/</a></li>
                     <li><a href="#contact">ping</a></li>
@@ -848,6 +849,7 @@
                         <li><a href="#about" onclick="closeMobileMenu()">whoami</a></li>
                         <li><a href="#skills" onclick="closeMobileMenu()">ls skills/</a></li>
                         <li><a href="#experience" onclick="closeMobileMenu()">history</a></li>
+                        <li><a href="#education" onclick="closeMobileMenu()">education</a></li>
                         <li><a href="#projects" onclick="closeMobileMenu()">cat projects/</a></li>
                         <li><a href="#articles" onclick="closeMobileMenu()">cat articles/</a></li>
                         <li><a href="#contact" onclick="closeMobileMenu()">ping</a></li>
@@ -896,10 +898,10 @@
                                 <span class="output success">build-automation-svc      1/1     Running   0          2d</span>
                             </div>
                             <div class="terminal-line">
-                                <span class="prompt">$ </span><span class="command">go build -o packet-sniffer ./cmd/main.go</span>
+                                <span class="prompt">$ </span><span class="command">go run ./cmd/main.go</span>
                             </div>
                             <div class="terminal-line">
-                                <span class="output success">Build successful: packet analysis ready</span>
+                                <span class="output success">Checkpoint: Monitoring 12 endpoints...</span>
                             </div>
                             <div class="terminal-line">
                                 <span class="prompt">$ </span><span class="cursor">_</span>
@@ -949,33 +951,18 @@
                         <div class="terminal-button btn-close"></div>
                         <div class="terminal-button btn-minimize"></div>
                         <div class="terminal-button btn-maximize"></div>
-                        <h4>systems_programming/</h4>
+                        <h4>languages/</h4>
                     </div>
                     <div class="skill-content">
                         <div class="skill-items">
+                            <div class="skill-item">Python</div>
                             <div class="skill-item">Go</div>
+                            <div class="skill-item">Java</div>
                             <div class="skill-item">C/C++</div>
-                            <div class="skill-item">Memory Management</div>
-                            <div class="skill-item">Concurrency & Parallelism</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <div class="skill-header">
-                        <div class="terminal-button btn-close"></div>
-                        <div class="terminal-button btn-minimize"></div>
-                        <div class="terminal-button btn-maximize"></div>
-                        <h4>infrastructure_and_platform_eng/</h4>
-                    </div>
-                    <div class="skill-content">
-                        <div class="skill-items">
+                            <div class="skill-item">Bash</div>
+                            <div class="skill-item">Verilog HDL</div>
                             <div class="skill-item">Terraform</div>
-                            <div class="skill-item">Docker & Containerisation </div>
-                            <div class="skill-item">Azure Cloud</div>
-                            <div class="skill-item">Gitlab CI/CD Pipelines </div>
-                            <div class="skill-item">Infrastructure as Code </div>
-                            <div class="skill-item">Kubernetes </div>
+                            <div class="skill-item">Ansible</div>
                         </div>
                     </div>
                 </div>
@@ -985,14 +972,33 @@
                         <div class="terminal-button btn-close"></div>
                         <div class="terminal-button btn-minimize"></div>
                         <div class="terminal-button btn-maximize"></div>
-                        <h4>tools_and_os/</h4>
+                        <h4>cloud_and_infrastructure/</h4>
                     </div>
                     <div class="skill-content">
                         <div class="skill-items">
-                            <div class="skill-item">Linux/Unix Systems</div>
-                            <div class="skill-item">Git & Version Control </div>
-                            <div class="skill-item">Shell Scripting </div>
-                            <div class="skill-item">Network Protocols (TCP/IP, TLS, BGP) </div>
+                            <div class="skill-item">Azure</div>
+                            <div class="skill-item">GCP</div>
+                            <div class="skill-item">Kubernetes</div>
+                            <div class="skill-item">Docker</div>
+                            <div class="skill-item">DevSecOps</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <div class="terminal-button btn-close"></div>
+                        <div class="terminal-button btn-minimize"></div>
+                        <div class="terminal-button btn-maximize"></div>
+                        <h4>devops/</h4>
+                    </div>
+                    <div class="skill-content">
+                        <div class="skill-items">
+                            <div class="skill-item">GitLab CI/CD</div>
+                            <div class="skill-item">Jenkins</div>
+                            <div class="skill-item">Git</div>
+                            <div class="skill-item">Networking</div>
+                            <div class="skill-item">Linux Environments</div>
                         </div>
                     </div>
                 </div>
@@ -1009,16 +1015,15 @@
                 <div class="experience-item">
                     <div class="experience-header">
                         <h4>Platform Engineering Intern</h4>
-                        <div class="experience-company">Fexco Tech</div>
+                        <div class="experience-company">Fexco Tech (Formerly Fexco Drive Technology)</div>
                         <div class="experience-duration">June 2025 - Present</div>
                     </div>
                     <div class="experience-content">
                         <ul style="list-style: none; padding: 0; margin: 0;">
-                            <li style="margin-bottom: 0.8rem; padding-left: 1rem; position: relative;"><span style="position: absolute; left: 0; color: var(--terminal-green);">•</span>Designed and developed core Platform as a Service (PaaS) components for internal development teams</li>
-                            <li style="margin-bottom: 0.8rem; padding-left: 1rem; position: relative;"><span style="position: absolute; left: 0; color: var(--terminal-green);">•</span>Led automation project for compliance audit requirements, reducing Principal Engineer manual workload</li>
-                            <li style="margin-bottom: 0.8rem; padding-left: 1rem; position: relative;"><span style="position: absolute; left: 0; color: var(--terminal-green);">•</span>Refactored Maven build system for legacy Java application, reducing developer setup time from 1 day to 30 minutes</li>
-                            <li style="margin-bottom: 0.8rem; padding-left: 1rem; position: relative;"><span style="position: absolute; left: 0; color: var(--terminal-green);">•</span>Implemented security scanning enhancements, identifying critical security vulnerabilities</li>
-                            <li style="margin-bottom: 0.8rem; padding-left: 1rem; position: relative;"><span style="position: absolute; left: 0; color: var(--terminal-green);">•</span>Contributed Terraform infrastructure code for Azure vWAN implementation</li>
+                            <li style="margin-bottom: 0.8rem; padding-left: 1rem; position: relative;"><span style="position: absolute; left: 0; color: var(--terminal-green);">•</span>Designed and delivered PaaS components to establish the newly formed Platform Team's service offering, supporting migration of development teams to new GitLab Enterprise instance</li>
+                            <li style="margin-bottom: 0.8rem; padding-left: 1rem; position: relative;"><span style="position: absolute; left: 0; color: var(--terminal-green);">•</span>Collaborated with developers to refactor Maven build system in critical production application, cutting setup time from 1 day to 30 minutes</li>
+                            <li style="margin-bottom: 0.8rem; padding-left: 1rem; position: relative;"><span style="position: absolute; left: 0; color: var(--terminal-green);">•</span>Implemented automated security scanning, identifying and prioritising remediation of 1000+ CVEs in legacy systems and blocked new vulnerabilities pre-deployment</li>
+                            <li style="margin-bottom: 0.8rem; padding-left: 1rem; position: relative;"><span style="position: absolute; left: 0; color: var(--terminal-green);">•</span>Conducted full audit of internal container registry, leading to discovery of two critical CVEs in production</li>
                         </ul>
                     </div>
                 </div>
@@ -1026,16 +1031,14 @@
                 <div class="experience-item">
                     <div class="experience-header">
                         <h4>DevSecOps Intern</h4>
-                        <div class="experience-company">Fexco Drive</div>
+                        <div class="experience-company">Fexco Drive Technology</div>
                         <div class="experience-duration">June 2024 - August 2024</div>
                     </div>
                     <div class="experience-content">
                         <ul style="list-style: none; padding: 0; margin: 0;">
                             <li style="margin-bottom: 0.8rem; padding-left: 1rem; position: relative;"><span style="position: absolute; left: 0; color: var(--terminal-green);">•</span>Architected 40+ Azure Terraform modules for GitLab Ultimate service offering</li>
-                            <li style="margin-bottom: 0.8rem; padding-left: 1rem; position: relative;"><span style="position: absolute; left: 0; color: var(--terminal-green);">•</span>Developed GitLab Components to standardize CI/CD pipelines for Infrastructure as Code projects</li>
-                            <li style="margin-bottom: 0.8rem; padding-left: 1rem; position: relative;"><span style="position: absolute; left: 0; color: var(--terminal-green);">•</span>Established IaC development standards and best practices across the organization</li>
-                            <li style="margin-bottom: 0.8rem; padding-left: 1rem; position: relative;"><span style="position: absolute; left: 0; color: var(--terminal-green);">•</span>Designed automation tooling for Linux fleet software distribution using Ansible playbooks</li>
-                            <li style="margin-bottom: 0.8rem; padding-left: 1rem; position: relative;"><span style="position: absolute; left: 0; color: var(--terminal-green);">•</span>Implemented security-focused DevSecOps practices and pipeline integrations</li>
+                            <li style="margin-bottom: 0.8rem; padding-left: 1rem; position: relative;"><span style="position: absolute; left: 0; color: var(--terminal-green);">•</span>Independently designed and developed GitLab components to standardise IaC CI/CD pipelines</li>
+                            <li style="margin-bottom: 0.8rem; padding-left: 1rem; position: relative;"><span style="position: absolute; left: 0; color: var(--terminal-green);">•</span>Worked with SRE team to integrate security-focused DevSecOps practices into pipelines, ensuring compliance with PCI, SOC2, ISO27001 regulation in systems processing €42bn of payments annually</li>
                         </ul>
                     </div>
                 </div>
@@ -1043,16 +1046,36 @@
                 <div class="experience-item">
                     <div class="experience-header">
                         <h4>Software Development Intern</h4>
-                        <div class="experience-company">Fexco Drive</div>
+                        <div class="experience-company">Fexco Drive Technology</div>
                         <div class="experience-duration">June 2023 - September 2023</div>
                     </div>
                     <div class="experience-content">
                         <ul style="list-style: none; padding: 0; margin: 0;">
-                            <li style="margin-bottom: 0.8rem; padding-left: 1rem; position: relative;"><span style="position: absolute; left: 0; color: var(--terminal-green);">•</span>Built full-stack payment processing platform using Java Spring Boot and MySQL</li>
-                            <li style="margin-bottom: 0.8rem; padding-left: 1rem; position: relative;"><span style="position: absolute; left: 0; color: var(--terminal-green);">•</span>Designed cloud-native architecture leveraging GCP Cloud Functions for scalability</li>
-                            <li style="margin-bottom: 0.8rem; padding-left: 1rem; position: relative;"><span style="position: absolute; left: 0; color: var(--terminal-green);">•</span>Implemented Infrastructure as Code using Terraform and Terragrunt for resource provisioning</li>
-                            <li style="margin-bottom: 0.8rem; padding-left: 1rem; position: relative;"><span style="position: absolute; left: 0; color: var(--terminal-green);">•</span>Developed Jenkins CI/CD pipelines for automated testing and deployment</li>
-                            <li style="margin-bottom: 0.8rem; padding-left: 1rem; position: relative;"><span style="position: absolute; left: 0; color: var(--terminal-green);">•</span>Conducted technical research and software architecture design for data aggregation systems</li>
+                            <li style="margin-bottom: 0.8rem; padding-left: 1rem; position: relative;"><span style="position: absolute; left: 0; color: var(--terminal-green);">•</span>Developed full-stack payment processing platform with Java Spring Boot and MySQL</li>
+                            <li style="margin-bottom: 0.8rem; padding-left: 1rem; position: relative;"><span style="position: absolute; left: 0; color: var(--terminal-green);">•</span>Refactored to a cloud-native architecture using GCP Cloud Functions for scalability</li>
+                            <li style="margin-bottom: 0.8rem; padding-left: 1rem; position: relative;"><span style="position: absolute; left: 0; color: var(--terminal-green);">•</span>Provisioned resources using Terraform and Terragrunt, built Jenkins pipelines</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="container">
+            <h2 class="section-title">education</h2>
+            <div class="experience-list">
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <h4>BSc/M.E. Electronic & Computer Engineering</h4>
+                        <div class="experience-company">University College Dublin</div>
+                        <div class="experience-duration">September 2022 - May 2027</div>
+                    </div>
+                    <div class="experience-content">
+                        <ul style="list-style: none; padding: 0; margin: 0;">
+                            <li style="margin-bottom: 0.8rem; padding-left: 1rem; position: relative;"><span style="position: absolute; left: 0; color: var(--terminal-green);">•</span>GPA: 3.60/4.20 (2.1) | UCD Entrance Scholar</li>
+                            <li style="margin-bottom: 0.8rem; padding-left: 1rem; position: relative;"><span style="position: absolute; left: 0; color: var(--terminal-green);">•</span>Relevant Coursework: FPGA Programming, Networks and Internet Systems, Unix Programming, Software Engineering</li>
                         </ul>
                     </div>
                 </div>
@@ -1065,26 +1088,80 @@
         <div class="container">
             <h2 class="section-title">cat projects/</h2>
             <div class="projects-grid">
-                <div class="project-card">
+                <div class="project-card ongoing-project">
                     <div class="project-header">
-                        <span class="project-icon">❓</span>
-                        <h4>unix-guessing-game</h4>
-                        <span class="project-status completed">Completed</span>
+                        <span class="project-icon">🏠</span>
+                        <h4>Homelab Design</h4>
+                        <span class="project-status ongoing">In Progress</span>
                     </div>
                     <div class="project-content">
                         <p class="project-description">
-                        A terminal based guessing game, designed to aid study for a Unix programming exam. The game sets up a TCP client and server, and serves questions from a `.txt` file as the database. The player guesses the answer to each question, and is given feedback on their answers.
+                            Self-hosting Kubernetes cluster with autoscaling, observability, and network monitoring. Building an infrastructure platform for learning and experimentation with new technologies in a home environment.
                         </p>
                         <div class="project-tech">
                             <div class="project-tech-title">Technologies used:</div>
                             <div class="tech-list">
-                                <span class="tech-tag">C</span>
-                                <span class="tech-tag">Unix Client/Server Architectures</span>
-                                <span class="tech-tag">TCP Sockets</span>
+                                <span class="tech-tag">Kubernetes</span>
+                                <span class="tech-tag">Docker</span>
+                                <span class="tech-tag">Ansible</span>
+                            </div>
+                        </div>
+                        <!-- <div class="project-links">
+                            <a href="#" class="project-link">Documentation</a>
+                        </div> -->
+                    </div>
+                </div>
+
+                <div class="project-card ongoing-project">
+                    <div class="project-header">
+                        <span class="project-icon">✅</span>
+                        <h4>Checkpoint</h4>
+                        <span class="project-status ongoing">In Progress</span>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            Building a Go-based API health check dashboard, featuring metrics collection for high frequency latency tracking, and notifications through Slack. Focused on performance optimization and high-performance networking.
+                        </p>
+                        <div class="project-tech">
+                            <div class="project-tech-title">Technologies used:</div>
+                            <div class="tech-list">
+                                <span class="tech-tag">Go</span>
+                                <span class="tech-tag">Linux</span>
+                                <span class="tech-tag">High Performance Networking</span>
+                                <span class="tech-tag">Metrics Collection</span>
+                                <span class="tech-tag">Slack API</span>
                             </div>
                         </div>
                         <div class="project-links">
-                            <a href="#" class="project-link">GitHub</a>
+                            <a href="https://github.com/hughfitz24/checkpoint" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-icon">⚖️</span>
+                        <h4>lawsoc.ie</h4>
+                        <span class="project-status completed">Completed</span>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            The website for the UCD Law Society. Static website built using HTML, CSS and JavaScript, with a focus on accessibility and ease of updating for non-technical editors. Reduced yearly hosting costs from €70 to €1 by migrating to a static site hosted on Cloudflare CDN, with dynamic content served via GCP Cloud Functions and Secret Manager.
+                        </p>
+                        <div class="project-tech">
+                            <div class="project-tech-title">Technologies used:</div>
+                            <div class="tech-list">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Cloudflare CDN</span>
+                                <span class="tech-tag">GCP Cloud Functions</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://lawsoc.ie" class="project-link">Website</a>
+                            <a href="https://github.com/hughfitz24/lawsoc-prod" class="project-link">GitHub</a>
+                            <a href="https://lawsoc.ie/devlog" class="project-link">Devlog</a>
                         </div>
                     </div>
                 </div>
@@ -1095,16 +1172,17 @@
                         <h4>quantum-computing-article</h4>
                         <span class="project-status completed">Completed</span>
                     </div>
-                    <div class="project-content"> <p class="project-description">
-                        Article written for the UCD College Tribune, exploring the implications of recent quantum computing advancements on cryptography and data security. Discusses the potential risks and future-proofing strategies for current technologies and education standards.
+                    <div class="project-content">
+                        <p class="project-description">
+                            Article written for the UCD College Tribune, exploring the implications of recent quantum computing advancements on cryptography and data security. Discusses the potential risks and future-proofing strategies for current technologies and education standards.
                         </p>
                         <div class="project-tech">
-                            <div class="project-tech-title">Topics Discussed</div>
+                            <div class="project-tech-title">Topics Discussed:</div>
                             <div class="tech-list">
                                 <span class="tech-tag">Quantum Computing</span>
                                 <span class="tech-tag">RSA Cryptography</span>
                                 <span class="tech-tag">ML Training Models</span>
-                                <span class="tech-tag">Quantum Research and Development</span>
+                                <span class="tech-tag">Quantum Research</span>
                             </div>
                         </div>
                         <div class="project-links">
@@ -1112,56 +1190,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="project-card">
-                    <div class="project-header">
-                        <span class="project-icon">⚖️</span>
-                        <h4>lawsoc.ie</h4>
-                        <span class="project-status completed">Completed</span>
-                    </div>
-                    <div class="project-content">
-                        <p class="project-description">
-                        The website for the UCD Law Society. Static website built using HTML, CSS and JavaScript, with a focus on accessibility and ease of updating for non-technical editors. Reduced yearly hosting costs from €70 to €1 by migrating to a static site hosted on Cloudflare CDN, with dynamic content served via GCP Cloud Functions and Secret Manager.
-                        </p>
-                        <div class="project-tech">
-                            <div class="project-tech-title">Technologies used:</div>
-                            <div class="tech-list">
-                                <span class="tech-tag">HTML</span>
-                                <span class="tech-tag">CSS</span>
-                                <span class="tech-tag">JavaScript</span>
-                                <span class="tech-tag">Cloudflare CDN</span>
-                                <span class="tech-tag">GCP Cloud Functions and Secret Manager</span>
-                            </div>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://lawsoc.ie" class="project-link">Website</a>
-                            <a href="https://github.com/hughfitz24/lawsoc-prod" class="project-link">GitHub</a>
-                            <a href="https://lawsoc.ie/devlog" class="project-link">Devlog</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card ongoing-project">
-                    <div class="project-header">
-                        <span class="project-icon">️🦫</span>
-                        <h4>Checkpoint</h4>
-                        <span class="project-status ongoing">In Progress</span>
-                    </div>
-                    <div class="project-content">
-                        <p class="project-description">
-                                An API health check dashboard, with a focus on performance and speed using Go. The project is designed to be a lightweight, fast, and efficient way to monitor the health of APIs, with a focus on low-level systems programming and performance optimization. It uses Go's concurrency features to handle multiple API checks simultaneously, and provides detailed metrics on response times and error rates.
-                        </p>
-                        <div class="project-tech">
-                            <div class="project-tech-title">Technologies used:</div>
-                            <div class="tech-list">
-                                <span class="tech-tag">Go</span>
-                                <span class="tech-tag">Network Analysis</span>
-                                <span class="tech-tag">Packet Sniffing</span>
-                                <span class="tech-tag">TCP/IP Protocols</span>
-                            </div>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link">GitHub</a>
-                        </div>
-                    </div>
 
             </div>
         </div>
